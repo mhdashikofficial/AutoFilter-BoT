@@ -1,5 +1,5 @@
 {
-    "name": "AutoFilter-Lucy",
+    "name": "catwomen",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -46,8 +46,8 @@
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
         },
-        "AUTH_USERS": {
-            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+        "SUPPORT_GROUP": {
+            "description": "..",
             "required": false
         },
         "AUTH_CHANNEL": {
