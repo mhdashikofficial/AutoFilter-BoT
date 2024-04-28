@@ -8,8 +8,8 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: DarkLord
-★ Username: @DARKL0RD_99
+    MY_OWNER_TXT = """★ Name: @VIRUSEPIC
+★ Username: @VIRUSEPIC
 ★ Country: India 🇮🇳"""
 
     STATUS_TXT = """★ Total Files: <code>{}</code>
@@ -135,9 +135,9 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/HA-Bots/Auto-Filter-Bot>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - @VIRUSEPIC
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @HA_Bots"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - @VIRUSEPIC
 
     SPAM_TXT = """{} Don't Spam, Wait For {}
 
