@@ -527,23 +527,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "stats":
         if query.from_user.id not in ADMINS:
-            return await query.answer("ADMINS Only!", show_alert=True)
+            return await query.answer("Admin Only!", show_alert=True)
         files = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
         premium = await db.all_premium_users()
         u_size = get_size(await db.get_db_size())
         f_size = get_size(536870912 - await db.get_db_size())
-        uptime = get_readable_time(time.time() - temp.START_TIME)
         buttons = [[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='my_about')
         ]]
-        await query.message.edit_text(script.STATUS_TXT.format(files, users, chats, premium, u_size, f_size, uptime), reply_markup=InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(script.STATUS_TXT.format(files, users, chats, premium, u_size, f_size), reply_markup=InlineKeyboardMarkup(buttons)
         )
         
     elif query.data == "my_owner":
         buttons = [[
-            InlineKeyboardButton(text=f"☎️ ᴄᴏɴᴛᴀᴄᴛ - {(await client.get_users(admin)).first_name}", user_id=admin)
+            InlineKeyboardButton(text=f"📞 ᴄᴏɴᴛᴀᴄᴛ - {(await client.get_users(admin)).first_name}", user_id=admin)
         ]
             for admin in ADMINS
         ]
