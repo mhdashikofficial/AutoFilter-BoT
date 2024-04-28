@@ -1,30 +1,29 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
+    START_TXT = """<b>ʜᴇʏ {} {},
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
+    MY_ABOUT_TXT = """★ Server: <a href=https://www.koyeb.com>koyeb</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: HA Bots
-★ Username: @HA_Bots
-★ Country: Sri Lanka 🇱🇰"""
+    MY_OWNER_TXT = """★ Name: DarkLord
+★ Username: @DARKL0RD_99
+★ Country: India 🇮🇳"""
 
-    STATUS_TXT = """🗂 Total Files: <code>{}</code>
-👤 Total Users: <code>{}</code>
-👥 Total Chats: <code>{}</code>
-🤑 Premium Users: <code>{}</code>
-✨ Used Storage: <code>{}</code>
-🗳 Free Storage: <code>{}</code>
-🚀 Bot Uptime: <code>{}</code>"""
+    STATUS_TXT = """★ Total Files: <code>{}</code>
+★ Total Users: <code>{}</code>
+★ Total Chats: <code>{}</code>
+★ Premium Users: <code>{}</code>
+★ Used Storage: <code>{}</code>
+★ Free Storage: <code>{}</code>"""
 
     NEW_GROUP_TXT = """#NewGroup
-Title - {}
-ID - <code>{}</code>
-Username - {}
-Total - <code>{}</code>"""
+★ Title - {}
+★ ID - <code>{}</code>
+★ Username - {}
+★ Total - <code>{}</code>"""
 
     NEW_USER_TXT = """#NewUser
 ★ Name: {}
