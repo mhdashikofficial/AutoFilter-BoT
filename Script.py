@@ -137,9 +137,9 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ꜱᴏᴜʀᴄᴇ - @VIRUSEPIC
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @VIRUSEPIC
+- ᴅᴇᴠʟᴏᴘᴇʀ - @VIRUSEPIC</b>"""
 
-    SPAM_TXT = """{} Don't Spam, Wait For {}
+    SPAM_TXT = """{} Don't Spam, Wait For {} 
 
 Else, You Can Buy Our Subscriptions.
 <a href={}>Click Here</a> To Learn More"""
